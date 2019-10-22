@@ -1,2 +1,2 @@
-# vineeth
+# VINEETH
 My Website
