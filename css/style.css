@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5 {
 /* end all heading */
 
 /* start all section */
-#work, #about, #experience, #contact{
+#work, #about, #experience, #contact, #education{
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -55,6 +55,9 @@ h1,h2,h3,h4,h5 {
 }
 #home .pic {
     max-width: 100%;
+}
+#home button:hover {
+    background: #ffffff;
 }
 #home h1 {
     border: 2px solid #ffffff;
@@ -147,8 +150,6 @@ h1,h2,h3,h4,h5 {
 #experience {
     background: #1a1a1a;
     text-align: left;
-    /* padding-left: 15px;
-    padding-right: 15px; */
 }
 #experience h2 {
     padding-bottom: 20px;
@@ -171,6 +172,26 @@ h1,h2,h3,h4,h5 {
     margin-bottom: 30px;
 }
 /* end experience */
+
+/* start education */
+#education {
+    text-align: left;
+}
+#education h2 {
+    padding-bottom: 20px;
+}
+#education h4 {
+    color: #D43F52;
+}
+#education p {
+    font-weight: 600;
+}
+#education .education-thumb {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+/* end education */
 
 @media (max-width: 767px) {
     #about .text-top {
