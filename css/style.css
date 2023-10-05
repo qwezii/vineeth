@@ -83,6 +83,9 @@ h1,h2,h3,h4,h5 {
     height: 2em;
     width: 2em;
 }
+#home .cert-icon {
+    height: 4em;
+}
 /* end home */
 
 /* start work */
@@ -192,6 +195,13 @@ h1,h2,h3,h4,h5 {
     margin-bottom: 30px;
 }
 /* end education */
+
+#projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #1a1a1a;
+    text-align: left;
+}
 
 @media (max-width: 767px) {
     #about .text-top {
